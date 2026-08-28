@@ -31,5 +31,12 @@ Depois, instale o Express:
 
 npm install express
 
-O express sera o framework principal da nossa API REST.
+O 'express' sera o framework principal da nossa API REST.
+
+## rodar versão inicial
+- criar index.js e adicionar o código
+- no terminal rodar o comando: node index.js
+- no navegador: 'http://localhost:PORTA/ROTA'
+
+
 
