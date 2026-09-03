@@ -39,4 +39,7 @@ O 'express' sera o framework principal da nossa API REST.
 - no navegador: 'http://localhost:PORTA/ROTA'
 
 
+## rodar a segunda vez
+no terminal:
 
+npm i
