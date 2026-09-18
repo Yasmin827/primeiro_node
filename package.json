@@ -4,7 +4,8 @@
   "description": "Repositorio para acampanhamento das aulas de microsserviço",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,10 @@
   },
   "homepage": "https://github.com/Yasmin827/primeiro_node#readme",
   "dependencies": {
-    "express": "^5.2.1"
+    "express": "^5.2.1",
+    "mongoose": "^9.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
   }
 }
