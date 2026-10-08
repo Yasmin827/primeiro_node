@@ -8,7 +8,7 @@ const PORT = 3003;
 app.use(express.json())
 
 app.get('/', (req, res) =>{
-    res.send("SEJA BEM VINDO!")
+    res.send("Api feita por: Yasmin Beserra da Silva, 2427992")
 })
 
 app.get('/alunos', async (req, res) =>{
@@ -18,7 +18,7 @@ app.get('/alunos', async (req, res) =>{
     }
     catch(error){
         res.status(500).json({
-            mensagem: 'Deu erro porra!!!',
+            mensagem: 'Deu erro!!',
             erro: error.message
         })
     }
