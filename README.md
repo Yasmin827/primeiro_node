@@ -16,7 +16,7 @@ npm
 
 node -v
 npm -v
-
+npn
 Se os dois comandos retornarem uma versao, o ambiente esta pronto.
 
 # Passo 1: iniciar o projeto Node
